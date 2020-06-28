@@ -1,0 +1,21 @@
+{
+    "name": "CanSat",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "Cansat_Logging": "github:svein-tore/cansat_logging#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
